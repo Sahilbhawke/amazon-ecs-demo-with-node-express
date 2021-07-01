@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: web-family
+        LoadBalancerInfo:
+          ContainerName: "node-calc-app"
+          ContainerPort: 80
