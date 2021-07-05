@@ -1,6 +1,6 @@
    {
         "name" : "node-calc-app",
-        "image" : "920120628553.dkr.ecr.us-east-2.amazonaws.com/node-app:latest",
+        "image" : "461073261580.dkr.ecr.us-east-2.amazonaws.com/node:latest
         "cpu" : 2,
         "memory" : 800,
         "essential" : true,
