@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: web-family
+        TaskDefinition: "arn:aws:ecs:us-east-2:461073261580:task-definition/web-family"
         LoadBalancerInfo:
           ContainerName: "node-calc-app"
           ContainerPort: 80
