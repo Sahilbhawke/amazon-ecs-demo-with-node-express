@@ -20,6 +20,5 @@ phases:
       - echo Build Successfull...
 artifacts:
   files: 
-    - imageDetail.json
     - appspec.yml
-    - container-def.json
+    - container-definitions/container-def.json
